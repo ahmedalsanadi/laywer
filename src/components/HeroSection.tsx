@@ -39,11 +39,11 @@ const HeroSection = () => {
 
               {/* Decorative elements */}
               <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-black/20 via-transparent to-black/20 animate-pulse"></div>
-              <div className="absolute -top-3 -right-3 w-20 h-20 border-t-4 border-r-4 border-black rounded-tr-3xl"></div>
-              <div className="absolute -bottom-3 -left-3 w-20 h-20 border-b-4 border-l-4 border-black rounded-bl-3xl"></div>
+              <div className="absolute -top-4 -right-4 w-32 h-32 border-t-4 border-r-4 border-lawyer-red rounded-tr-3xl"></div>
+              <div className="absolute -bottom-4 -left-4 w-32 h-32 border-b-4 border-l-4 border-lawyer-red rounded-bl-3xl"></div>
 
               {/* Floating badge */}
-              <div className="absolute -bottom-4 right-1/2 transform translate-x-1/2 bg-gradient-to-r from-black to-gray-800 text-white px-5 py-2 rounded-full shadow-xl">
+              <div className="absolute -bottom-4 right-1/2 transform translate-x-1/2 bg-gradient-to-r from-lawyer-red to-red-600 text-white px-5 py-2 rounded-full shadow-xl">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-sm sm:text-base">
                     خبرة +15 عام
