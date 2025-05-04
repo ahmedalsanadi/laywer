@@ -10,8 +10,8 @@ const HeroSection = () => {
       {/* Animated background patterns */}
       <div className="absolute inset-0 z-0">
         {/* Background images */}
-        <div className="absolute inset-0 bg-[url('/images/landing-6.jpg')] dark:bg-[url('/images/landing-1.jpg')] bg-cover bg-center opacity-10 dark:opacity-20"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-lawyer-red/5 via-transparent to-transparent dark:from-lawyer-red/10"></div>
+        <div className="absolute inset-0 bg-[url('/images/landing-7.jpg')] dark:bg-[url('/images/landing-1.jpg')] bg-cover bg-center opacity-10 dark:opacity-20"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-black/20 via-transparent to-transparent dark:from-black/30"></div>
         <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
       </div>
 
@@ -38,12 +38,12 @@ const HeroSection = () => {
               </div>
 
               {/* Decorative elements */}
-              <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-lawyer-red/20 via-transparent to-lawyer-red/20 animate-pulse"></div>
-              <div className="absolute -top-3 -right-3 w-20 h-20 border-t-4 border-r-4 border-lawyer-red rounded-tr-3xl"></div>
-              <div className="absolute -bottom-3 -left-3 w-20 h-20 border-b-4 border-l-4 border-lawyer-red rounded-bl-3xl"></div>
+              <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-black/20 via-transparent to-black/20 animate-pulse"></div>
+              <div className="absolute -top-3 -right-3 w-20 h-20 border-t-4 border-r-4 border-black rounded-tr-3xl"></div>
+              <div className="absolute -bottom-3 -left-3 w-20 h-20 border-b-4 border-l-4 border-black rounded-bl-3xl"></div>
 
               {/* Floating badge */}
-              <div className="absolute -bottom-4 right-1/2 transform translate-x-1/2 bg-gradient-to-r from-lawyer-red to-red-600 text-white px-5 py-2 rounded-full shadow-xl">
+              <div className="absolute -bottom-4 right-1/2 transform translate-x-1/2 bg-gradient-to-r from-black to-gray-800 text-white px-5 py-2 rounded-full shadow-xl">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-sm sm:text-base">
                     خبرة +15 عام
