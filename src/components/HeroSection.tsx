@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-[100vh] py-8 sm:py-16 flex items-center overflow-hidden"
+      className="relative min-h-[80vh] max-h-[900px] py-8 sm:py-16 flex items-center overflow-hidden"
     >
       {/* Background with optimized gradient overlay */}
       <div className="absolute inset-0 z-0">
@@ -68,8 +68,9 @@ const HeroSection = () => {
               data-aos="fade-in"
               data-aos-delay="600"
             >
-          خبرة تمتد لأكثر من 15 عامًا في تقديم خدمات قانونية متميزة بكل احترافية وشفافية.
-          نقدّم حلولاً قانونية متكاملة للأفراد والشركات في مختلف المجالات القانونية
+              خبرة تمتد لأكثر من 15 عامًا في تقديم خدمات قانونية متميزة بكل
+              احترافية وشفافية. نقدّم حلولاً قانونية متكاملة للأفراد والشركات في
+              مختلف المجالات القانونية
             </p>
 
             <div
@@ -130,8 +131,6 @@ const HeroSection = () => {
                   </span>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
