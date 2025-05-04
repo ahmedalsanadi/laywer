@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 33% 98%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --primary: 0 79% 56%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 47% 11%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 222 84% 5%;
+  --radius: 0.5rem;
+  --lawyer-red: 0 79% 56%;
+}
+
+.dark {
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+  --card: 222 47% 11%;
+  --card-foreground: 210 40% 98%;
+  --popover: 222 47% 11%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 0 79% 56%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 217 33% 18%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217 33% 18%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 217 33% 18%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 63% 31%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217 33% 18%;
+  --input: 217 33% 18%;
+  --ring: 213 27% 84%;
+  --lawyer-red: 0 79% 60%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-arabic;
+    direction: rtl;
+  }
+
+  /* Scroll behavior */
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .container-fluid {
+    @apply w-full px-4 md:px-6 lg:px-8 xl:px-12 2xl:px-16;
+  }
+  
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold mb-6;
+  }
+  
+  .section-subtitle {
+    @apply text-xl md:text-2xl font-semibold mb-4;
+  }
+  
+  .stat-card {
+    @apply flex flex-col items-center justify-center text-center;
+  }
+  
+  .stat-number {
+    @apply text-4xl md:text-5xl font-bold;
+  }
+  
+  .stat-label {
+    @apply text-sm md:text-base text-muted-foreground mt-2;
+  }
+
+  .service-card {
+    @apply p-6 border border-border rounded-lg transition-all hover:shadow-md;
+  }
+
+  .contact-card {
+    @apply flex items-center gap-3 p-4;
+  }
+
+  /* Enhanced styles with optimized performance */
+  .text-shadow-lg {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .shadow-glow-red {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.5);
+  }
+
+  .shadow-glow-white {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  }
+}
+
+@layer utilities {
+  /* Optimized animations for better performance */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Simplified countUp animation */
+  @keyframes countUp {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  .font-arabic {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+  }
+
+  .counted {
+    animation: countUp 0.3s ease-out forwards;
+  }
+
+  .opacity-0 {
+    opacity: 0;
+  }
+
+  ::selection {
+    @apply bg-lawyer-red/20 text-lawyer-red;
+  }
+}
