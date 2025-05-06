@@ -58,10 +58,7 @@ const ServiceCard = memo(
           {service.description}
         </p>
 
-        {/* Optional Button */}
-        <button className="mt-auto inline-block px-4 py-2 bg-lawyer-red text-white rounded-full text-sm font-medium shadow hover:bg-red-600 transition">
-          Learn More
-        </button>
+        
       </div>
 
       {/* Decorative shape */}

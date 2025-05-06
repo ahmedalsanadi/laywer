@@ -5,13 +5,13 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-16 sm:py-20"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black/5 to-black/10 dark:from-black dark:to-black/90 py-16 sm:py-20"
     >
       {/* Animated background patterns */}
       <div className="absolute inset-0 z-0">
         {/* Background images */}
         <div className="absolute inset-0 bg-[url('/images/landing-7.jpg')] dark:bg-[url('/images/landing-1.jpg')] bg-cover bg-center opacity-10 dark:opacity-20"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-black/20 via-transparent to-transparent dark:from-black/30"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-black/30 via-transparent to-transparent dark:from-black/40"></div>
         <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
       </div>
 

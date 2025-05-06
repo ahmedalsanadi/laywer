@@ -22,7 +22,7 @@ const TeamSection = () => {
       image: "/images/lawer3.png"
     },
     {
-      name: "سعيد الهاشمي",
+      name: "سارة الهاشمي",
       position: "محامي متخصص",
       specialty: "قانون العقارات",
       image: "/images/lawer4.png"
@@ -51,7 +51,7 @@ const TeamSection = () => {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+    <section id='team' className="py-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <span className="inline-block px-4 py-2 bg-red-100 dark:bg-red-900 text-red-600 dark:text-red-300 rounded-full text-sm font-semibold mb-4">
