@@ -77,7 +77,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900"
+      className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900 overflow-x-hidden"
     >
       <div className="container mx-auto px-4 ">
         <motion.div
