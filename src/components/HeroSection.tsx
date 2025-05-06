@@ -43,7 +43,7 @@ const HeroSection = () => {
               <div className="absolute -bottom-4 -left-4 w-32 h-32 border-b-4 border-l-4 border-lawyer-red rounded-bl-3xl"></div>
 
               {/* Floating badge */}
-              <div className="absolute -bottom-4 right-1/2 transform translate-x-1/2 bg-gradient-to-r from-lawyer-red to-red-600 text-white px-5 py-2 rounded-full shadow-xl">
+              <div className="absolute -bottom-4 right-4 bg-gradient-to-r from-lawyer-red to-red-600 text-white px-5 py-2 rounded-full shadow-xl">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-sm sm:text-base">
                     خبرة +15 عام
