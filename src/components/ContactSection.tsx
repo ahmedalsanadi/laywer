@@ -134,7 +134,7 @@ const ContactSection = () => {
               >
                 <a
                   href="mailto:Lawyeralyousefi@gmail.com"
-                  className="text-lawyer-red hover:underline transition-all"
+                  className="text-lawyer-red hover:underline transition-all break-all"
                 >
                   Lawyeralyousefi@gmail.com
                 </a>
